@@ -1,0 +1,12 @@
+portable:
+  item-name-mini: "<b><#2E3192>D<#2C489E>i<#2A5FAA>s<#2876B6>c<#268DC2>P<#23A3CF>l<#21BADB>a<#1FD1E7>y<#1DE8F3>e<#1BFFFF>r</b>"   # MiniMessage
+  gui-title: "Портативный проигрыватель"
+  listen-radius: 32.0     # players within this distance of the owner hear the music
+  volume: 2.0             # sound volume (2.0 is about 32 blocks)
+  gap-ms: 1500            # pause between two discs
+
+jukebox:
+  gui-title: "Проигрыватель"
+
+recipe:
+  enabled: true          # planks in the corners, iron ingots on the sides, a diamond in the middle

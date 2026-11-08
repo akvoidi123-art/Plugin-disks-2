@@ -1,0 +1,16 @@
+name: DiscPlayer
+version: '${version}'
+main: ru.discplayer.DiscPlayerPlugin
+api-version: '26.1.2'
+softdepend: [CustomDiscs]
+description: Portable disc player and 5-slot jukebox queue (vanilla and CustomDiscs discs).
+commands:
+  discplayer:
+    description: Disc player commands
+    usage: /discplayer give [player]
+    aliases: [dp]
+    permission: discplayer.admin
+permissions:
+  discplayer.admin:
+    description: Use /discplayer
+    default: op
